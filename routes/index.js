@@ -10,7 +10,7 @@ const upload = require('./multer');
 
 router.get('/', function(req, res, next) {
   res.render('index',{nav:false});
-});
+}); 
 
 router.get("/register", function (req, res, next) { 
   res.render('register',{nav:false});
